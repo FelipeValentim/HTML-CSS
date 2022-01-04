@@ -26,25 +26,23 @@ body {
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
 
-.superinfo{
-    
+.superinfo {
     max-width: 960px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     margin: 0 auto;
-
 }
 
-.superinfo a{
+.superinfo a {
     color: rgb(240, 240, 240);
     display: block;
     text-decoration: none;
     padding: 10px;
-    
+
 }
 
-.superinfo a:hover{
+.superinfo a:hover {
     color: rgb(255, 255, 255);
 }
 
@@ -56,31 +54,31 @@ body {
 /* SESSÃO DO CABEÇALHO SUPERIOR */
 
 /*SESSÃO DO CABEÇALHO DE NAVEGAÇÃO*/
-.menu-bg{
+.menu-bg {
     background: #53c4d2;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
 
-.menu{
+.menu {
     display: flex;
-
     max-width: 960px;
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 0;
 }
 
-.menu-nav ul{
+.menu-nav ul {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
 }
 
-.menu-nav li{
+.menu-nav li {
     font-size: 1.5em;
 }
 
-.menu-nav a{
+.menu-nav a {
     text-decoration: none;
     color: white;
     display: block;
@@ -88,13 +86,17 @@ body {
     margin-left: 30px;
 }
 
-.menu-nav a:hover{
+.menu-nav a:hover {
     color: #1c7d8a;
     text-decoration: underline;
 }
 
-.menu-logo{
+.menu-logo {
     padding: 0 10px;
+}
+
+.menu-logo img {
+    max-width: 150px;
 }
 
 /*.menu-nav a::before{
@@ -116,7 +118,7 @@ body {
 
 /*SESSÃO DO ORÇAMENTO*/
 
-.orcamento{
+.orcamento {
     border-top: solid #53c4d2;
     border-bottom: solid #53c4d2;
     max-width: 960px;
@@ -125,7 +127,7 @@ body {
     padding: 60px 0;
 }
 
-.orcamento h1{
+.orcamento h1 {
     font-size: 2em;
     background: rgba(229, 230, 230, 0.8);
     color: #1c7d8a;
@@ -135,12 +137,12 @@ body {
     border-radius: 0 30px 30px 30px;
 }
 
-.orcamento h2{
-    padding: 20px   ;
+.orcamento h2 {
+    padding: 20px;
 
 }
 
-.orcamento a{
+.orcamento a {
     background: rgba(0, 0, 0, 0.5);
     color: white;
     text-decoration: none;
@@ -148,39 +150,41 @@ body {
     border-radius: 40px;
 }
 
-.orcamento a:hover{
+.orcamento a:hover {
     background: #1c7d8a;
     color: white(0, 0, 0, 0.5);
 }
+
 /*SESSÃO DO ORÇAMENTO*/
 
 /*SESSÃO DO SOBRE*/
 
-.sobre-container{
+.sobre-container {
     max-width: 960px;
     margin: 0px auto;
     display: flex;
     flex-wrap: wrap;
 }
 
-.sobre-info{
+.sobre-info {
     flex: 2 1 260px;
 }
 
-.sobre h1{
+.sobre h1 {
     display: flex;
     justify-content: center;
     margin-bottom: 60px;
     font-weight: bold;
     font-size: 2.5em;
 }
-.sobre-info p{
+
+.sobre-info p {
     margin-left: 20px;
     font-size: 0.9em;
     margin-bottom: 20px;
 }
 
-.sobre-imagem{
+.sobre-imagem {
     flex: 1 1 260px;
 }
 
@@ -191,7 +195,7 @@ body {
     background: #F8F8F8;
 }
 
-.servicos-bg h1{
+.servicos-bg h1 {
     padding-top: 60px;
     font-size: 2em;
     display: flex;
@@ -201,7 +205,7 @@ body {
     margin-bottom: 30px;
 }
 
-.servicos-container{
+.servicos-container {
     max-width: 960px;
     display: flex;
     flex-wrap: wrap;
@@ -209,7 +213,7 @@ body {
 
 }
 
-.servicos-item{
+.servicos-item {
     flex: 1 1 300px;
     padding: 60px;
     border-bottom: solid #1c7d8a;
@@ -217,26 +221,26 @@ body {
 
 }
 
-.servicos-item h3{
+.servicos-item h3 {
     font-size: 1em;
-    margin-bottom: 10px;   
+    margin-bottom: 10px;
 }
 
-.servicos-item p{
+.servicos-item p {
     font-size: 0.8em;
     max-width: 400px;
 }
 
-.servicosoitem p + .servicos-item h3{
+.servicosoitem p+.servicos-item h3 {
     border: solid black;
-    
+
 }
 
-.servicos-item img:hover{
+.servicos-item img:hover {
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
 }
 
-.servicos-bg h2{
+.servicos-bg h2 {
     max-width: 960px;
     margin: 0 auto;
     padding: 60px;
@@ -247,15 +251,16 @@ body {
 
 }
 
-.servicos-bg a{
+.servicos-bg a {
     text-decoration: none;
     color: white;
     background: #1c7d8a;
     padding: 20px;
     border-radius: 40px;
+    text-align: center;
 }
 
-.servicos-bg a:hover{
+.servicos-bg a:hover {
     text-decoration: underline;
     color: rgba(0, 0, 0, 0.5);
     background: #59b9c5;
@@ -264,11 +269,11 @@ body {
 /*SESSÃO DE SERVIÇOS*/
 
 /*SESSÃO DE FOOTER*/
-.footer{
+.footer {
     background: #1c7d8a;
 }
 
-.footer-container{
+.footer-container {
     display: flex;
     max-width: 960px;
     justify-content: center;
@@ -278,40 +283,39 @@ body {
     flex-wrap: wrap;
 }
 
-.footer-item{
-    
+.footer-item {
+
     /*max-width: 240px;*/
     padding: 10px 20px;
     margin: 0 5px;
     display: block;
     border-right: solid black;
-    
+
 }
 
-.footer-item img{
-    max-width:200px;
-}
-
-.footer-atendimento{
+.footer-item img {
     max-width: 200px;
-} 
+}
 
-.footer-atendimento h2{
+.footer-atendimento {
+    max-width: 200px;
+}
+
+.footer-atendimento h2 {
     font-size: 1.4em;
     margin-bottom: 10px;
 }
 
-.footer-atendimento p{
+.footer-atendimento p {
     font-size: 0.9em;
 }
 
-.footer-contato h2{
+.footer-contato h2 {
     font-size: 1.5em;
     margin-bottom: 10px;
 }
 
-.footer-contato p{
+.footer-contato p {
     font-size: 0.9em;
     margin-bottom: 10px;
 }
-
