@@ -1,5 +1,5 @@
 # HTML&CSS 🖥️
 
-Criei esse site baseado em berticlean.com.br, porém com bastante diferença nos dois
+## Esse é meu primeiro criado, fiz ele baseado em berticlean.com.br, porém com bastante diferenças
 
 Utilizei principalmente de Flexbox
