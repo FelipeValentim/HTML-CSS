@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -20,4 +21,28 @@ p {
 
 .amanha {
     color: darkblue;
+=======
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 a {
+    color: green;
+}
+
+p {
+    font-size: large;
+}
+
+.hoje {
+    color: darkred;
+}
+
+.amanha {
+    color: darkblue;
+>>>>>>> 40964e0e353c598399329d9c2dbd7067ade917fe
 }

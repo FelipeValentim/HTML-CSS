@@ -1,0 +1,1 @@
+# Alguns projetos bem pequenos que fiz ao longo de estudos
