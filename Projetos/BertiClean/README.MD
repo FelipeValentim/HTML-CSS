@@ -1,5 +1,7 @@
 # HTML&CSS 🖥️
 
-## Esse é meu primeiro criado, fiz ele baseado em berticlean.com.br, porém com bastante diferenças
+## Esse é meu primeiro criado 
 
-Utilizei principalmente de Flexbox
+fiz ele baseado em berticlean.com.br, porém com bastante diferenças. Utilizei principalmente de Flexbox
+
+
