@@ -9,8 +9,7 @@
     grid-template-columns: 1fr 1fr;
     color: white;
     padding: 160px 60px;
-    gap: 250px;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .footer p {
@@ -36,6 +35,7 @@
     padding: 20px;
     border-radius: 4px;
     position: relative;
+    justify-self: start;
 }
 
 .footer-mensagem::before {
@@ -49,20 +49,24 @@
     background: linear-gradient(#A839FF, #701CDA);
 }
 
+.footer-info {
+    justify-self: end;
+}
+
 @media (max-width: 1000px) {
+
     .footer {
         grid-template-columns: 1fr;
         gap: 60px;
     }
 
-}
-
-@media (max-width: 1000px) {
-
-
     .footer p {
         font-size: 1.2rem;
         max-width: 60ch;
+    }
+
+    .footer-info {
+        justify-self: start;
     }
 
 }
