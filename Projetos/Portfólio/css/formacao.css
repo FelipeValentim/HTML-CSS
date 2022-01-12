@@ -222,6 +222,8 @@
 
     .formacao h2 {
         padding: 60px 15px 0px 15px;
+        /*  */
+        font-size: 2rem;
     }
 
     .formacao-info {
@@ -300,5 +302,7 @@
     .formacao-resumo {
         font-size: 1.2rem;
     }
-    
+
+    /* .formacao */
+
 }

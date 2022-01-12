@@ -1,3 +1,7 @@
+*{
+    /* background: chocolate; */
+}
+
 body {
     font-family: "Fira Sans";
     margin: 0;
@@ -28,4 +32,10 @@ a {
     color: #E0E0E0;
     font-size: 9rem;
     text-transform: uppercase;
+}
+
+@media(max-width: 600px) {
+    .subtitulo {
+        font-size: 10rem;
+    }
 }

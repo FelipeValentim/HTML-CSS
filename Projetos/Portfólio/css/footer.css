@@ -81,3 +81,23 @@
         font-size: 1.2rem;
     }
 }
+
+@media (max-width: 400px) {
+    .footer {
+        justify-content: start;
+        padding: 10px;
+    }
+
+    .footer p {
+        font-size: 0.875rem;
+        max-width: 15ch;
+    }
+
+    .footer a {
+        font-size: 0.8rem;
+    }
+
+    .footer-mensagem {
+        margin-top: 100px;
+    }
+}
