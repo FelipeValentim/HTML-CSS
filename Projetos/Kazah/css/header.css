@@ -1,0 +1,37 @@
+.header {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 60px;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header img {
+    height: 2.5rem;
+}
+
+.header-menu {
+    display: flex;
+    gap: 40px;
+}
+
+.header-menu a {
+    font-size: 1em;
+}
+
+.header li a:hover {
+    transition: 0.3s;
+    color: #00cccf;
+}
+
+.header-comeca {
+    padding: 10px 20px;
+    background: linear-gradient(to right, #01c8cb, #1d75be);
+    border-radius: 4px;
+    color: white;
+    font-size: 0.875rem;
+}
+
+/* .header */

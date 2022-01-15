@@ -1,0 +1,44 @@
+.superinfo {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    /* align-self: flex-end; */
+    padding: 5px 0 10px 0;
+}
+
+.superinfo a img {
+    height: 1em;
+    display: block;
+}
+
+.superinfo span {
+    margin-right: 5px;
+}
+
+.superinfo a {
+    display: flex;
+    /* background: #a37cfc; */
+    padding: 10px 0;
+    align-items: center;
+    font-size: 0.875rem;
+}
+
+.superinfo path {
+    fill: chocolate !important;
+}
+
+.superinfo a:hover {
+    transition: 0.3s;
+    color: #a37cfc;
+    fill: currentColor;
+    /* filter: invert(50%) sepia(83%) saturate(1534%) hue-rotate(221deg) brightness(100%) contrast(98%); */
+    /* fill: currentColor; */
+
+}
+
+
+
+/* .superinfo p{
+
+} */
