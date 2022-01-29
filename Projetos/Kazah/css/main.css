@@ -6,6 +6,7 @@
     /* background-image: url("../img/bg.png"); */
     display: grid;
     grid-template-columns: 2fr 1fr;
+    align-items: center;
 }
 
 .main-info h1 {
@@ -30,4 +31,9 @@
 .main-obs {
     font-size: 0.875rem;
     margin-top: 5px;
+}
+
+.main img {
+    max-width: 100%;
+    min-width: 1000px;
 }

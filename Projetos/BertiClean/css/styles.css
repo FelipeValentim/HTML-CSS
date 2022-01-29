@@ -86,6 +86,14 @@ body {
     margin-left: 30px;
 }
 
+.sobre-imagem img{
+    max-width: 100%;
+}
+
+.servicos-item img{
+    max-width: 100%;
+}
+
 .menu-nav a:hover {
     color: #1c7d8a;
     text-decoration: underline;
