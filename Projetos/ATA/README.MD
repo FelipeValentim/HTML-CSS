@@ -1,0 +1,1 @@
+# Refiz o site https://segurancaata.com.br/, porém com algumas pequenas diferenças
